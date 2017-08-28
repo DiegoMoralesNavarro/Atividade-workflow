@@ -24,5 +24,9 @@ gulp.task('scss', () => { gulp.watch('./source/scss/*.scss', ['scss-min']) })
 
 
 
+gulp.task("default",['html', 'scss'])
+
+
+
  /// https://www.npmjs.com/package/gulp-sass
  /// https://www.npmjs.com/package/gulp-htmlmin/
